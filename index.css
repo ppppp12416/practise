@@ -1,0 +1,368 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Acme&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Acme&family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+/* div{
+    border: 1px solid red;
+} */
+
+body{
+    background-color: #ECD7C6;
+}
+
+.offer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 16px 8px;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.offer p span{
+    text-decoration: underline;
+}
+
+.navigation{
+    width: 80%;
+    margin: auto;
+    padding: 16px 8px 16px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+    display:flex;
+    gap:20px;
+    font-family: "Aclonica", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo{
+    font-family: "Abril Fatface", serif;
+    font-weight:900;
+    font-style: normal;
+    font-size: 32px;
+    align-items: center;
+}
+
+.search{
+    width:347px;
+    height:38px;
+    border-radius: 62px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+}
+
+.search input{
+    height: 100%; 
+    width:100%;
+    margin:0px;
+    outline: 0px;
+    border: 0px;
+    /* border-radius: 62px; */
+    font-size: 16px;
+}
+
+.search input::placeholder{
+    font-size: 14px;
+    font-weight:600;
+    color: rgb(169, 173, 173);
+    font-family: "Aclonica", sans-serif;
+    font-style: normal;
+}
+
+.icons{
+    display: flex;
+    gap:20px;
+}
+
+.sec1{
+    margin-top: 50px;
+    /* text-align: center; */
+}
+
+
+.sec1 h2{
+    width: 750px;
+    /* height:124px; */
+    margin: auto;
+    text-align:center;
+    font-family: "Abril Fatface", serif;
+    font-weight:400;
+    font-style: normal;
+    font-size:64px;
+    line-height: 90px;
+    
+}
+
+.sec1 p{
+    width: 750px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Aclonica", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color:#00000099;
+    line-height: 30px;
+
+
+}
+
+.collections{
+    display: flex;
+    width:80%;
+    margin: auto; 
+    margin-top: 50px;
+    height:400px;
+    gap:10px;
+}
+
+.collections div img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+
+.img1{
+    flex:1;
+}
+
+.img{
+    flex:0.2;
+}
+
+.shopnow{
+   display: block;
+   width: fit-content;
+   margin: auto;
+   margin-top: 40px;
+   padding:16px 50px;
+   background-color: black;
+   color: white;
+   border-radius: 62px;
+   font-family: "Pacifico", cursive;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 24px;
+   cursor: pointer;
+}
+
+
+.sec2{
+
+    width:100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 26px 16px;
+    background-color: black;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+
+.sec2 p{
+
+    height:50px;
+    width:200px;
+
+
+}
+
+.sec2 p img{
+    height: 100%;
+    width:100%;
+}
+
+
+.sec3{
+    margin-top: 100px;
+    width:100%;
+    height:1000px;
+    /* height: auto; */
+    background-color: #EFE5DC;
+    
+}
+
+.sec3 h2{
+
+    text-align: center;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+ 
+div.summer-collections{
+    width:80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap:20px;
+}
+
+img.summer-collections{
+    width:100%;
+    height: 100%;
+}
+
+
+div img{
+    width: 100%;
+    height: 80%;
+}
+
+.wear div p{
+    text-align: center;
+    padding: 16px 8px;
+    background-color: #EBD4C2;
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+
+.style{
+  display: flex;  
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.count{
+     font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+}
+
+.info-text{
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color:#00000099;
+}
+
+.elevate-style{
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    text-align: center;
+
+
+}
+
+
+.sec4{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.sec4 h2{
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.featured-collection{
+    display: flex;
+    justify-content: center;
+    /* overflow: hidden; */
+    
+}
+
+.featured-collection div img{
+    width:100%;
+    height: 100%;
+    border: 5px solid white;
+    border-radius: 16px;
+    object-fit: cover;
+    position: relative;
+    gap:-40px;
+}
+
+.card{
+    /* position: relative; */
+    height:400px;
+    width:200px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+    transition-property: all;
+}
+
+.right-card{
+    margin-right: -60px;
+}
+
+.left-card{
+    margin-left: -60px;
+}
+
+.card1{
+ z-index: 2;
+ transform: scale(0.7);
+}
+
+.card2{
+ z-index: 3;
+ transform: scale(0.8);
+}
+
+.card3{
+    z-index: 4;
+    transform: scale(0.9);
+}
+
+.main-card{
+    transform: scale(1);
+    z-index: 5;
+}
+
+.card:hover{
+    z-index: 6;
+    transform: scale(1);
+    
+}
+
